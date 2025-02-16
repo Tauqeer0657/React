@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-const Student = () => {    
+const Student = (props) => {    
   return (
     <div className='student'>
       <p>Student's Name : {props.name}</p>
