@@ -5,7 +5,7 @@
 // 2. Modules
 // 3. Inline
 
-import Button from "./Button/Button";
+import Button from "./Button";
 
 function App() {
 
