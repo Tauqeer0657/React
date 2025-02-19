@@ -8,7 +8,7 @@ const UpdaterObject = () => {
         setCar(prevCar => ({...prevCar, year: e.target.value}))
     }
     const handleManufacturerChange = (e) => {
-        setCar(prevCar => ({...prevCar, manufacturer: e.target.value}))
+        setCar(prevCar => ({...prevCar, manufacturer: e.target.value}));
     }
     const handleModelChange = (e) => {
         setCar(prevCar => ({...prevCar, model: e.target.value}))
