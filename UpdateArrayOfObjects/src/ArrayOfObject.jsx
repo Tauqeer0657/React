@@ -14,8 +14,7 @@ const ArrayOfObject = () => {
 
     const handleManufacturer = (e) => {
         setManufacturer(prevManufacturer => prevManufacturer = e.target.value);
-        console.log(manufacturer);
-        
+        console.log(manufacturer); 
     }
 
     const handleModel = (e) => {
