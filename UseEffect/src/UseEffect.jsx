@@ -4,8 +4,8 @@ import { useState } from 'react'
 const UseEffect = () => {
     const [count, setCount] = useState(0);
     useEffect(()=> {
-        document.title = `Count : ${count}`;
-    },[count]);
+        console.log("Changed");
+    });
     function increaseCount() {
         setCount(c => c + 1);
     }
